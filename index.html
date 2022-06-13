@@ -1,10 +1,114 @@
-<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
 
 
+    <header>
+        <div class="main-container"> 
+            <section wigth="25%">
+                <img src="./assets/myprofil.jpg" alt="Невероятный парень:)" width="300px">
+            </section> 
+            <section class="section">
+                <h1>Андрей Радчиков</h1>
+            </section>
+           
+        </div>
+        
 
+        <div class="container">
+              <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Контакты</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">О себе</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Навыки</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Пример кода</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Образование</a></li>
+                </ul>
+              </nav>        
+
+
+        </div>
+    </header>
+
+
+    <main> 
+        <div class="conteiner main-container">
+            <section class="section" id="contacts">
+                <h2>Контакты</h2>
+                <ul>
+                    <li>e-mail: radchikov_a@yahoo.com</li>
+                    <li>Skype: andrew_radchikov</li>
+                    <li>Tel: +7(968)732-87-23 (WhatsApp)</li>
+                    <li>Github: Andrew-Radchikov</li>
+                    <li>Discord: AndrewMidnight#5125</li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2>О себе</h2>
+                <p>Здесь будет текст о себе</p>
+            </section>
+            <section class="section" id="skills">
+                <h2>Навыки</h2>
+                <ul>
+                    <li>Навык 1</li>
+                    <li>Навык 2</li>
+                    <li>Навык 3</li>
+                    <li>Навык 4</li>
+                    <li>Навык 5</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2>Пример кода "Поиск простых чисел"</h2>
+               <code> <pre> 
+            
+let indexNumber=0;
+
+if(n&lt;3){
+  if(n&lt;2){
+     alert(`До 1 простых чисел нет`);
+  }
+    else{alert(`Простое число 2`);}
+  }  
+else{
+  alert(`Простое число 2`);
+
+  for(let j=3;j &lt;=n;j++){
+
+     indexNumber=0;
+
+     for(let i=2;i&lt;j;i++){
+        if(j%i==0){
+            indexNumber=1;
+            break; 
+            }
+        }
+
+     if(indexNumber==0){
+        alert(`Простое число ${j}`);
+        }
+   }
+}
+
+          </pre></code>
+            </section>
+            <section class="section" id="education">
+                <h2>Образование</h2>
+                <p>
+                    Белорусский государственный университет, Механико-математический факультет <br>Специальность: математик-экономист
+                </p>
+            </section>
+
+        </div>
+    </main>
+    <footer>
+        <div class="conteiner">Footer</div>
+    </footer>    
 </body>
-
 </html>
