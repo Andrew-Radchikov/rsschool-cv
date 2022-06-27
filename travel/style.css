@@ -1,0 +1,462 @@
+/*Total formating*/
+
+html{
+    scroll-behavior: smooth; 
+    overflow-x:  hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ li{
+    cursor: pointer;
+ }
+
+/* Header style */
+.headdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 1440px;
+    height: 90px;
+    border: 0;
+    padding: 0;
+    background-color: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+
+.upclass{
+    width: 1440px;
+    height: 765px;
+    background-image: url(assets/picture/garrettparker.jpg);
+    margin: auto;
+}
+
+.logoimg{
+    display: flex;
+    flex-direction: row;
+    width: 30px;
+    height: 30px;
+    margin: 20px 0 120px 0;
+}
+
+.logotext{
+    display: block;
+    width: 180px;
+    height: 31px;
+    padding: 0;
+    border: 0;
+    margin: 0 0 10px 0;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Magra', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    margin-left: 8px;
+}
+
+.ulstyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 527px;
+    height: 90px;
+    margin-right: 75px;
+    
+}
+
+.navtextstyle{
+    font-family: 'Red Hat Text', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.logoflex{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    margin-top: 0;
+}
+
+.buttonstyle{
+    background-color: #0D606F;
+    font-family: 'Red Hat Text', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    border: 0;
+    font-size: 16px;
+    width: 103px;
+    height: 41px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) /*, 0px 2px 3px rgba(13, 96, 111, 0.16)*/;
+}
+
+.buttonstyle:hover{
+    background-color:cornflowerblue;
+}
+
+.buttonflex{
+    margin-right: 120px;
+}
+
+/*  preview section style*/
+h1{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Aleo', serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 96px;
+        
+}
+
+.pstylepreview{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin: -36px 0 0 0;
+    
+}
+
+.sectionStylePreview{
+    width: 892px;
+    height: 422px;
+    margin: -33px 0 0 120px;
+}
+
+.divWithQuestion{
+    display: flex;
+    flex-direction: row;
+    width: 892px;
+    height: 95px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    margin: 47px 0 0 0;
+}
+
+.pStyleQuestion{
+    font-family: 'Aleo', serif;
+    font-size: 24px;
+    font-style: italic;
+    color: rgba(242, 120, 92, 1);
+    margin: 32px 0 41px 41px;
+
+}
+
+.buttonQuestion{
+    background-color: rgba(13, 96, 111, 1);
+    font-family: 'Red Hat Text', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    border: 0;
+    font-size: 24px;
+    width: 228px;
+    height: 59px;
+    border-radius: 10px;
+    margin: 18px 18px 18px auto;
+}
+
+.buttonQuestion:hover{
+    background-color:cornflowerblue;
+}
+
+
+/*  steps section style*/
+.styleSection1{
+    margin-top: 80px;
+}
+
+.h2StepStyle{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgba(242, 120, 92, 1);
+    text-align: center;
+}
+
+.stepsPictureStyle{
+    min-width: 100px;
+    min-height: 100px;
+    background-color: #F2785C;
+    border-radius: 16px;
+}
+
+.stepsPictureStyleCalendar{
+    min-width: 100px;
+    min-height: 100px;
+    background-color: #F2785C;
+    border-radius: 16px;
+    margin-left: 65px;
+}
+
+.stepsDivStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px auto 98px auto;
+    width: 1177px;
+    height: 154px;
+}
+
+.stepDivInside{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stepImgStyle{
+    display: block;
+    margin: 24px auto 0 auto;
+}
+
+.stepImgStyleCalendar{
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+.pStyleSteps{
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    color: #0D606F;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pStyleStepsCalendar{
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    color: #0D606F;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+/*  destinations section style*/
+
+.mainDestinationDiv{
+    width: 1440px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    margin: -20px auto auto auto;
+}
+
+.imageDivDestination{
+   margin: 30px;
+}
+
+.imageDestinationStyle{
+    border-radius: 16px;
+}
+
+.pStyleDestination{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1)    ;
+    margin: -85px auto 35px 15px;
+}
+
+.divStyleCircle{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    align-content: flex-start;
+    margin: auto;
+    width: 80px;
+    height: 20px;
+}
+
+.circleStyleCenter{
+    width: 20px;
+    height: 20px;
+    background-color: rgba(242, 120, 92, 1);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 16px;
+}
+
+.circleStyleSide{
+    width: 20px;
+    height: 20px;
+    background-color: rgba(242, 120, 92, 0.5);
+    border-radius: 16px;
+}
+
+.buttonDivDestinations{
+    display: flex;
+    flex-direction:row;
+    width: 228px;
+    height: 59px;
+    align-items: center;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgba(13, 96, 111, 1);
+    font-family: 'Red Hat Text', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    margin: 40px auto;
+}
+
+.arrowStyle{
+    margin-left: 31px;
+    margin-right: 10px;
+}
+
+.arrowp{
+    font-family: 'Red Hat Text', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+}
+
+/* stories section style*/
+
+
+.downClass{
+    width: 1440px;
+    height: 1331px;
+    background-image: url(assets/picture/Rectangle33.jpg);
+    margin: 40px auto auto auto;
+}
+
+.h2StoryStyle{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgba(242, 120, 92, 1);
+    text-align: center;
+    margin: 80px auto auto auto;
+}
+
+.downClass2{
+    background: rgba(255, 255, 255, 0.7);
+    width: 1440px;
+    height: 1270px;
+}
+.downClass3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 1120px;
+    margin-top: 30px;
+}
+
+
+.divStoriesPictureFirst{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    width: 1200px;
+    height: 250px;
+    margin: 40px auto 15px auto;
+}
+
+.divStoriesPicture{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items: flex-start;
+    width: 1200px;
+    height: 250px;
+    margin: 15px auto 15px auto;
+}
+
+.imageStoryStyle{
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px #0D606F;
+    margin-right: 40px;
+}
+
+.nameOfStory{
+    font-family: 'Aleo', serif;
+    font-size: 35px;
+    color: rgba(13, 96, 111, 1);
+    font-weight: 400;
+    margin: 0;
+  
+}
+
+.textOfStory{
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    color: rgba(13, 96, 111, 1);
+    font-weight: 400;
+    margin-top: 22px;
+}
+
+.textOfStoryLink{
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    color: rgba(13, 96, 111, 1);
+    font-weight: 700;
+    line-height: 0px;
+}
+
+.buttonSeeMore{
+    background-color: rgba(13, 96, 111, 1);
+    border: 0;
+    width: 228px;
+    height: 59px;
+    border-radius: 10px;
+    display: block;
+    margin: 28px auto;
+}
+
+
+/* footer section style*/
+
+.footerStyle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+.pStyleFooter{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-left: 590px;
+}
+
+.ulStyleFooter{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 280px;
+}
+
+.liStyleFooter{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 34px;
+    height: 34px;
+}
+
+.buttonDivFooter{
+    display: flex;
+    flex-direction:row;
+    width: 228px;
+    min-height: 59px;
+    align-items: center;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgba(13, 96, 111, 1);
+    font-family: 'Red Hat Text', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    margin-top: 25px;
+}
