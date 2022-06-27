@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="main-container"> 
+            <div class="image-section25">
+                <img width="300" src="./assets/myprofil.jpg" alt="Невероятный парень:)">
+            </div> 
+            <div class="image-section75">
+                <h1>Andrew <br>Radchikov</h1>
+                <p class="head2">Data analyst<br> Programmer</p>
+            </div>
+           
+        </div>
+        
+
+        <div class="container">
+              <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">About myself</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Sample Code</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  </ul>
+              </nav>        
+
+
+        </div>
+    </header>
+
+
+    <main> 
+        <div class="conteiner main-container">
+            <section class="section" id="contacts">
+                <h2>Contacts</h2>
+                <ul>
+                    <li>e-mail: radchikov_a@yahoo.com</li>
+                    <li>Skype: andrew_radchikov</li>
+                    <li>Tel: +7(968)732-87-23 (WhatsApp)</li>
+                    <li>Github: Andrew-Radchikov</li>
+                    <li>Discord: AndrewMidnight#5125</li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2>About myself</h2>
+                <p>Cheerful, friendly, love to learn new things and travel. Now I work as an analyst in the fields of medicine, psychology and economics.
+                    I am interested in mathematics, mainly number theory. In my free time I like to walk or ride a bike.
+                    I am actively involved in running: I participated in half marathons and charity races.
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Paskal Programming Basics</li>
+                    <li>Python Programming Basics</li>
+                    <li>Basics of HTML layout</li>
+                    <li>Specialty mathematician-economist: Mathematical models in economics</li>
+                    <li>Proficiency in PowerPoint and professional presentation creation</li>
+                    <li>Public speaking skill</li>
+                    <li>Organization and holding of large events (up to 500 people)</li>
+                    <li>Teamwork skills</li>
+                    <li>Work with clients (personally and with the audience)</li>
+                    <li>Statistical methods (mathematical part)</li>
+                    <li>Knowledge of statistical processing packages: Statistica, SPSS, R</li>
+                    <li>Scientific research (creation of questionnaires, data collection and processing, conclusions, presentation of results)</li>
+                    <li>SMM Programming Basics</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2>Sample Code "Finding Prime Numbers"</h2>
+               <pre class="code-type">
+            
+let indexNumber=0; 
+
+if(n&lt;3){ 
+  if(n&lt;2){ 
+     alert(`До 1 простых чисел нет`); 
+  }
+    else{alert(`Простое число 2`);}
+  }  
+else{
+  alert(`Простое число 2`);
+
+  for(let j=3;j &lt;=n;j++){
+
+     indexNumber=0;
+
+     for(let i=2;i&lt;j;i++){
+        if(j%i==0){
+            indexNumber=1;
+            break; 
+            }
+        }
+
+     if(indexNumber==0){
+        alert(`Простое число ${j}`);
+        }
+   }
+}
+
+</pre>  
+            </section>
+            <section class="section" id="education">
+                <h2>Education</h2>
+                <p>
+                    Belarusian State University, Faculty of Mechanics and Mathematics. <br> <b>Specialty: </b> Mathematician-economist <br>
+                    <b>Level of English:</b> <br> Basic course of the university: "English for mathematicians"
+                </p>
+            </section>
+
+            <section class="section" id="projects">
+                <h2>Projects</h2>
+                <p>
+                    <a href="https://andrew-radchikov.github.io/rsschool-cv/">Curriculum vitae</a>
+                </p>
+            </section>
+           
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <pre><a href="https://github.com/Andrew-Radchikov">Andrew-Radchikov</a>   2022    <a href="https://rs.school/js/"><img width="50" src="//rs.school/images/rs_school_js.svg" alt="RSSchool"></a>
+            </pre>
+            
+        
+        </div>
+    </footer>    
+</body>
+</html>
